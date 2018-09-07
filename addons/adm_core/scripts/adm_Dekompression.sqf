@@ -15,17 +15,17 @@ _admVarVebleibendeNullzeitHelium = 10;
 
 				//STart --- For each 16 arrays do 
 {
-_admVarCompartmentValues = _admVarCompartmentValues select _x;
+_admVarCompartmentValues = (_admVarCompartmentValues select _x);
 
 
 //Nehme jeweilige HAlbzeitN2, HAlbzeitHE, _admVarStickstoffAFaktor, _admVarStickstoffBFaktor, _admVarHeliumAFaktor, _admVarHeliumBFaktor
 //Lese aus Array aus:
-_admVarHalflifeN2 = _admVarCompartmentValues select _x select 1);
-_admVarStickstoffAFaktor = _admVarCompartmentValues select _x select 2);
-_admVarStickstoffBFaktor = _admVarCompartmentValues select _x select 3);
-_admVarHalflifeHe = _admVarCompartmentValues select _x select 4);
-_admVarHeliumAFaktor = _admVarCompartmentValues select _x select 5);
-_admVarHeliumBFaktor =  _admVarCompartmentValues select _x select 6);
+_admVarHalflifeN2 = (_admVarCompartmentValues select _x) select 1);
+_admVarStickstoffAFaktor = (_admVarCompartmentValues select _x) select 2);
+_admVarStickstoffBFaktor = (_admVarCompartmentValues select _x) select 3);
+_admVarHalflifeHe = (_admVarCompartmentValues select _x) select 4);
+_admVarHeliumAFaktor = (_admVarCompartmentValues select _x) select 5);
+_admVarHeliumBFaktor = () _admVarCompartmentValues select _x) select 6);
 //Berechne Stickstoffbelastung
 _admVarGewebeStickstoffInspiratorisch = (admVarUmgebungsdruck - _admVarWasserdampfdruck + ((1 - _admVarRespiratorischerQuotient)/_admVarRespiratorischerQuotient) * _admVarDeltaPCO2) * _admVarInertgasanteil;
 _admVarGewebeStickstoffBeginnExposition = _admVarGewebeStickstoffEndeExposition + _admVarGewebeStickstoffInspiratorisch;
