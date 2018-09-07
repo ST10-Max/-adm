@@ -1,26 +1,9 @@
-/*
- 	Name: adm_BuddyBreathingZiel
- 	
- 	Author(s):
-		[ST10] Max
-
- 	Description:
-		Wird ausgeführt, wenn Spieler der Geber von Buddy Breathing ist. Setzt seinen Luftverbrauch auf das Doppelte und gewährt dem Spieler volle Bewegungsfreiheit.
-	
-	Parameters:
-		Nothing
- 	
- 	Returns:
-		Nothing
- 	
- 	Example:
-		Nothing
-*/
+//WIP
 sleep 1;
 
 //Loope das Skript
 while {true} do {
-	//Während der Spieler gekoppelt ist, 
+	//WÃ¤hrend der Spieler gekoppelt ist, 
 	if (admVarBuddyBreathingImGang == TRUE) then 
 	{
 		//Verdoppele Luftverbrauch des Gebers
