@@ -1,2 +1,3 @@
-Taucherbrille verschwindet manchmal, wenn man sie zu Missionsbeginn schon angezogen hat.
-Wird der Tauchcomputer bei offenem Display abgelegt, bleibt das Display trotzdem offen und schließt nicht automatisch.
+Diving goggles disappear at mission start, if applied in mission editor.
+
+If dive computer is droped while open, display doesn't close.
