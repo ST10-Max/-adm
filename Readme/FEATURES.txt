@@ -11,7 +11,7 @@ FEATURES:
 								-dive computer with day/night background
 								-gas cylinders (textures WIP)
 			
-			Simmulation of:		-ambient pressure
+			Simulation of:		-ambient pressure
 								-tank pressure
 								-air supply
 								-air usage
