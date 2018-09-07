@@ -1,24 +1,23 @@
 FEATURES:
-			Gameplay:			-Duale Nutzung von Vanilla und ADM
+			Gameplay:			-dual usage of ADM and vanilla
 			
-			Immersion:			-Rebreather und Taucherbrille auch an Land angelegt
+			Immersion:			-rebreather and goggles equipped on land
 								
-			Equipment:			-Rebreather
-								-Taucherbrille
-								-Neoprenanzug
-								-Equipmentbag
-								-Tauchcomputer mit GPS Funktion
-								-Tauchcomputer mit automatischem Tag-/Nachtmodus
-								-Tauchflaschen (Texturen WIP)
+			Equipment:			-rebreather
+								-diving goggles
+								-wetsuit
+								-equipmentbag
+								-dive computer with GPS
+								-dive computer with day/night background
+								-gas cylinders (textures WIP)
 			
-			Simmulation von:	-Umgebungsdruck
-								-Flaschendruck
-								-Luftvorrat
-								-Luftverbrauch
-								-Atemfrequenz in Abhängigkeit der Anstrengung
-								-dynamische Berechnung der Dekompressionszeit und Tiefe mit dem Bühlmann Algorithmus ZHL-16A
-								-dynamische Berechnung von Deepstopzeit und Tiefe (WIP)
-								-Auswirkungen der Atemgase auf Gewebesättigung
-								-13 verschiedene Atemgase in Einzel- und Doppelflaschen
-								-Effekte bei zu schnellem Auftauchen, Nichteinhalten der Dekompressionsstopps, Tiefenrausch und Sauerstoffvergiftung
-								-Farbabsorbtion mit zunehmender Tauchtiefe (WIP)
+			Simmulation of:		-ambient pressure
+								-tank pressure
+								-air supply
+								-air usage
+								-breathing frequency depending on dive speed
+								-dynamic calculation of decompression depth with BÃ¼hlmann algorithm ZHL-16A
+								-dynamic calculation of deepstops (not yet)
+								-tissue saturation dependent of breathing gases
+								-13 different breathing gases in single and double bottles
+								-color disortion with increasing depth (WIP)
