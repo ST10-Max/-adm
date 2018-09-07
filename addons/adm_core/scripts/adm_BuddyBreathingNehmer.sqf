@@ -1,26 +1,9 @@
-/*
- 	Name: adm_BuddyBreathingNehmner
- 	
- 	Author(s):
-		[ST10] Max
-
- 	Description:
-		Wird ausgeführt, wenn Spieler der Nehmer von Buddy Breathing ist. Setzt seinen Luftverbrauch auf Null und schränkt seine Bewegungsfreiheit ein.
-	
-	Parameters:
-		Nothing
- 	
- 	Returns:
-		Nothing
- 	
- 	Example:
-		Nothing
-*/
+// WIP
 sleep 1;
 
 //Loope das Skript
 while {true} do {
-	//Während der Spieler gekoppelt ist, 
+	//WÃ¤hrend der Spieler gekoppelt ist, 
 	if (admVarBuddyBreathingImGang == TRUE) then 
 	{
 		//Setze eigenen Luftverbrauch auf Null, indem die verbrauchte Luft hier addiert wird und im Hauptskript subtrahiert wird.
