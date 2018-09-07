@@ -1,0 +1,24 @@
+FEATURES:
+			Gameplay:			-Duale Nutzung von Vanilla und ADM
+			
+			Immersion:			-Rebreather und Taucherbrille auch an Land angelegt
+								
+			Equipment:			-Rebreather
+								-Taucherbrille
+								-Neoprenanzug
+								-Equipmentbag
+								-Tauchcomputer mit GPS Funktion
+								-Tauchcomputer mit automatischem Tag-/Nachtmodus
+								-Tauchflaschen (Texturen WIP)
+			
+			Simmulation von:	-Umgebungsdruck
+								-Flaschendruck
+								-Luftvorrat
+								-Luftverbrauch
+								-Atemfrequenz in Abhängigkeit der Anstrengung
+								-dynamische Berechnung der Dekompressionszeit und Tiefe mit dem Bühlmann Algorithmus ZHL-16A
+								-dynamische Berechnung von Deepstopzeit und Tiefe (WIP)
+								-Auswirkungen der Atemgase auf Gewebesättigung
+								-13 verschiedene Atemgase in Einzel- und Doppelflaschen
+								-Effekte bei zu schnellem Auftauchen, Nichteinhalten der Dekompressionsstopps, Tiefenrausch und Sauerstoffvergiftung
+								-Farbabsorbtion mit zunehmender Tauchtiefe (WIP)

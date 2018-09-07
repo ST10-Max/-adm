@@ -1,0 +1,2 @@
+Taucherbrille verschwindet manchmal, wenn man sie zu Missionsbeginn schon angezogen hat.
+Wird der Tauchcomputer bei offenem Display abgelegt, bleibt das Display trotzdem offen und schließt nicht automatisch.

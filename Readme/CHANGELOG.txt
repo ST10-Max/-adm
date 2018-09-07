@@ -1,0 +1,63 @@
+ADM CHANGELOG
+
++ Hinzugefügt
+- Entfernt
+* Geändert
+
+
+
+___________v0.1 Alpha__________
++ Mod.cpp
++ Config.cpp
+		Taucherbrille
+		Rebreather
+		schwarzer Rucksack
+		Neoprenanzug
+		Tauchcomputer
+		Tauchflaschen
++ Atemgase mit ihren Zusammensetzungen
+		Pressluft
+		Enriched Air Nitrox
+		Heliox
+		Trimix
++ Luftverbrauch basierend auf Tauchgeschwindigkeit
+		Standard 15 l/min
+		Sprint 25 l/min
++ grundlegende Berechnungen
+		verbleibende Atemluft
+		Luftverbrauch
+		Umgebungsdruck
+		Tauchtiefe
+		Auftauchrate
+		vergangene und verbleibende Tauchzeit
++ Näherungsweise Berechnung der Gewebesättigung
++ Berechnung von Dekompressionstiefe und -zeit
++ Verletzen des Spielers beim Überschreiten der Grenzwerte
++ visuelle Effekte für
+		Sauerstoffvergiftung
+		Tiefenrausch
+		Dekokrankheit
++ GUI für Tauchcomputer -> F5
+		Uhrzeit
+		Kurs
+		Flaschendruck
+		Umgebungsdruck
+		Tauchtiefe
+		Auftauchrate
+		vergangene Tauchzeit
+		verbleibende Tauchzeit
+		Dekompressionstiefe und -zeit
+		Deepstoptiefe und -zeit
+		maximal erlaubte Tiefe
+		Partialdruck O2
+		Partialdruck N2
+		Warnmeldungen
++ Brilleneffekt auch an Land
++ Sound beim Anschließen der Tauchflasche
++ Modelle für Tauchflaschen
+		6l 300bar Einzelflasche
+		6l 300bar Doppelflasche
+___________v0.2 Bühlmann__________
+- Näherungsweise Berechnung der Gewebesättigung
++ Berechnung der Gewebsesättigung und Dekompression mit Bühlmann Algorithmus ZHL-16A
++ Automatischer Tag/Nachtmodus für Tauchcomputer
