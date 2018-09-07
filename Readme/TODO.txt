@@ -1,9 +1,7 @@
-TO-DO Liste:		
-					-HQ Texturen für Tauchflaschen
-					-ohne TC hat der Spieler einen analogen Tiefenmesser, ein Finimeter und eine Dekotabelle
-					-Modularer Aufbau (Editormodule) für individuelle Schwierigkeitseinstellung
-					-Weitergeben von Flaschen per ACE Fremdinteraktion
-					-Handsignale
-					-Speichern der Werte am Item, nicht am Player
-					-Buddy Breathing per ACE Fremdinteraktion (erst möglich, wenn oberes möglich)
-					-ggf übersetzen in Englisch, ect
+TO-DO List:		
+					-textures for gas cylingers
+					-depth gauge, finimeter and deco table without dive computer
+					-editor modules for custom options
+					-passing cylinders with ace interaction
+					-hand signals
+					-buddy breathing
