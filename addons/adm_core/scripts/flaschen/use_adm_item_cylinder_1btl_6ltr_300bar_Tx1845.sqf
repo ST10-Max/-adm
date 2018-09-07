@@ -1,0 +1,11 @@
+admVarAtemluftInLiter = 1800;	
+admVarFlaschenVolumen = 6;
+admVarFlaschendruckInBar = 300;
+admVarProzentSauerstoff = 0.18;
+admVarProzentStickstoff = 0.37;
+admVarProzentHelium = 0.45;
+admVarTaucherOhneLuft = 0;
+player removeItem "adm_item_cylinder_1btl_6ltr_300bar_Tx1845";
+playSound "adm_sound_zischen";
+hint "Filled rebreather using one single 6l bottle, filled with 300bar of Tx18/45.";
+player addItem "adm_item_cylinder_1btl_6ltr_empty";

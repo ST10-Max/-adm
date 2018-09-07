@@ -1,0 +1,11 @@
+admVarAtemluftInLiter = 3600;	
+admVarFlaschenVolumen = 12;
+admVarFlaschendruckInBar = 300;
+admVarProzentSauerstoff = 0.12;
+admVarProzentStickstoff = 0.23;
+admVarProzentHelium = 0.65;
+admVarTaucherOhneLuft = 0;
+player removeItem "adm_item_cylinder_2btl_6ltr_300bar_Tx1265";
+playSound "adm_sound_zischen";
+hint "Filled rebreather using two linked 6l bottles, filled with 300bar of Tx12/65.";
+player addItem "adm_item_cylinder_2btl_6ltr_empty";

@@ -1,0 +1,4 @@
+https://wrobell.dcmod.org/decotengu/model.html
+https://peterrachowtauchen.wordpress.com/2014/10/02/peter-rachow-tauchtheorie-die-mathematik-des-buhlmann-dekompressionsalgorithmus/
+https://github.com/Jens-Horstmann/Buhlmann-ZHL-16/blob/master/src/main/java/BuhlmannZHL16/ZHL16.java
+https://www.dekostop.ch/tauchen-know-how/tauchen-dekompression/247-buehlmann-zh-l16-saettigungsgleichung

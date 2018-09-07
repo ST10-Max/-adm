@@ -1,0 +1,11 @@
+admVarAtemluftInLiter = 3600;
+admVarFlaschenVolumen = 12;
+admVarFlaschendruckInBar = 300;
+admVarProzentSauerstoff = 0.21;
+admVarProzentStickstoff = 0.79;
+admVarProzentHelium = 0.00;
+admVarTaucherOhneLuft = 0;
+player removeItem "adm_item_cylinder_2btl_6ltr_300bar_compressedAir";
+playSound "adm_sound_zischen";
+hint "Filled rebreather using two linked 6l bottles, each filled with 300bar of compressed air.";
+player addItem "adm_item_cylinder_2btl_6ltr_empty";

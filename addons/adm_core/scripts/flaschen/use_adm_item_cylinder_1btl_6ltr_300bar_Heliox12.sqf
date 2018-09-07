@@ -1,0 +1,11 @@
+admVarAtemluftInLiter = 1800;	
+admVarFlaschenVolumen = 6;
+admVarFlaschendruckInBar = 300;
+admVarProzentSauerstoff = 0.12;
+admVarProzentStickstoff = 0.0;
+admVarProzentHelium = 0.88;
+admVarTaucherOhneLuft = 0;
+player removeItem "adm_item_cylinder_1btl_6ltr_300bar_Heliox12";
+playSound "adm_sound_zischen";
+hint "Filled rebreather using one single 6l bottle, filled with 300bar of Heliox12.";
+player addItem "adm_item_cylinder_1btl_6ltr_empty";
